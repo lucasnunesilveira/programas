@@ -1,3 +1,3 @@
 # programas
 estudos 
-# feito para salva arquivos para estudar sobre o um determinados assuntos 
+# feito para salva arquivos de estudos ,  sobre um determinados assuntos 
