@@ -1,3 +1,4 @@
+
 n1 = input("Digite um numero inteiro: ")
 if n1.isdigit():
     n1 = int(n1)
@@ -7,6 +8,8 @@ if n1.isdigit():
         print("O valor é impar.")
 else:
     print("Valor invalido.")
+
+
 
 n2 = input("Digite a hora em inteiro :")
 if n2.isdigit():
