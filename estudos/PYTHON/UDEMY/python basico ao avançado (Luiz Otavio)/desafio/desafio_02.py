@@ -8,6 +8,7 @@ while y >= 0 :
     x += 1
 '''
 # for usa quando se usa quando tem fim
+
 y = 10
 for p ,k in enumerate(range (10,0,-1)):
     print(k,p)

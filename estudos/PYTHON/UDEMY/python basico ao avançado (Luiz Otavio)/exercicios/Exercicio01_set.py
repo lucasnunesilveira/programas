@@ -9,6 +9,7 @@ lista_de_inteiro = [
     [1,2,2,3,3,4,4,5,5,1],
     [1,2,3,4,5,6,2,2,3,3],
 ]
+#jeito que eu fiz
 '''
 for i in range(10):
     lista_menor = []
@@ -33,13 +34,20 @@ print(lista_maior_nova)
 '''
 
 # no jeito que foi mostrado no udemy
-def encontra_primeiro_duplicado(listar_de_inteiro):
-    duplicados = set()
-    primeiro_duplicado = -1
+def encontra_primeiro_duplicado(param_listar_de_inteiro):
+    numero_check = set()
+    primeiro_duplicado  = -1
 
-    for numero in listar_de_inteiro:
-        if numero  in duplicados:
+    for numero in param_listar_de_inteiro:
+        if numero  in numero_check:
             primeiro_duplicado = numero
             break
-        duplicados.add(numero)
+
+        numero_check.add(numero)
+    print("aaa", primeiro_duplicado)
     return primeiro_duplicado
+
+for lista_de_inteiro in  lista_de_inteiro:
+    print(lista_de_inteiro,encontra_primeiro_duplicado(lista_de_inteiro))
+
+
